@@ -3,6 +3,8 @@
 
   [[plugins]]
   package = "netlify-plugin-cypress"
+  [plugins.inputs.preBuild]
+    enable = false
    # let's run tests against the built site
   [plugins.inputs.postBuild]
     enable = true
