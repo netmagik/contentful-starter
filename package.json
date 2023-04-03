@@ -18,13 +18,13 @@
     "normalize.css": "^8.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-markdown": "^8.0.3"
+    "react-markdown": "^8.0.3",
+    "netlify-plugin-cypress": "^2.2.1"
   },
   "devDependencies": {
     "@netlify/plugin-nextjs": "^4.33.0",
     "@stackbit/cms-contentful": "^0.0.34",
     "contentful-export": "^7.17.1",
-    "contentful-import": "^8.3.0",
-    "netlify-plugin-cypress": "^2.2.1"
+    "contentful-import": "^8.3.0"
   }
 }
