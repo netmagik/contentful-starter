@@ -4,9 +4,9 @@
   "description": "Stackbit - Next.js + Contentful Starter",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "netlify dev",
+    "build": "npm run build",
+    "start": "netlify dev",
     "lint": "next lint"
   },
   "author": "Stackbit",
@@ -21,9 +21,10 @@
     "react-markdown": "^8.0.3"
   },
   "devDependencies": {
-    "@netlify/plugin-nextjs": "^4.25.0",
+    "@netlify/plugin-nextjs": "^4.33.0",
     "@stackbit/cms-contentful": "^0.0.34",
     "contentful-export": "^7.17.1",
-    "contentful-import": "^8.3.0"
+    "contentful-import": "^8.3.0",
+    "netlify-plugin-cypress": "^2.2.1"
   }
 }

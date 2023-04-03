@@ -1,6 +1,17 @@
 [[plugins]]
   package = "@netlify/plugin-nextjs"
+   # runs Cypress tests against the deployed URL
+  package = "netlify-plugin-cypress"
+
+  [dev] 
+    command = "next dev"
+    targetPort = 3000
 
 [build]
   publish = ".next"
   command = "npm run build"
+  # cache Cypress binary in local "node_modules" folder
+  # so Netlify caches it
+  CYPRESS_CACHE_FOLDER = "./node_modules/CypressBinary"
+  # set TERM variable for terminal output
+  TERM = "xterm"
