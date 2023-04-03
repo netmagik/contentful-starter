@@ -3,6 +3,9 @@
 
   [[plugins]]
   package = "netlify-plugin-cypress"
+   # let's run tests against the built site
+  [plugins.inputs.postBuild]
+    enable = true
 
   [dev] 
     command = "next dev"
