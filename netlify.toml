@@ -17,6 +17,6 @@
     command = "next dev"
     targetPort = 3000
 
-#[[edge_functions]]
- # path = "/geolocation"
- #function = "geolocation"
+[[edge_functions]]
+ path = "/geolocation"
+ function = "geolocation"

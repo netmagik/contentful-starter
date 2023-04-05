@@ -2,7 +2,7 @@ import { Context } from "https://edge.netlify.com";
 
 export default async (request: Request, context: Context) => {
   // Here's what's available on context.geo
-
+console.log(context.geo)
   // context: {
   //   geo: {
   //     city?: string;
