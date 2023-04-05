@@ -1,9 +1,9 @@
 import Container from '../Container';
 import styles from './style.module.css';
-import page from '../geo'
+// import page from '../geo'
 
 const HeroBanner = (props) => {
-  console.log({page})
+//   console.log({page})
     const { path, fields} = props;
     const heroImageStyle = {
         backgroundImage: `url(https:${fields.image?.fields?.file?.url})`
