@@ -1,6 +1,6 @@
 import geolocationInfo from './geolocation-info';
 
-export default function page ({ geo }) {
+export default function Page ({ geo }) {
 
     // title: "Geolocation",
     // metaDescription:
