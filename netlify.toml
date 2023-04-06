@@ -18,5 +18,5 @@
     targetPort = 3000
 
 [[edge_functions]]
- path = "/geolocation"
+ path = "/"
  function = "geolocation"

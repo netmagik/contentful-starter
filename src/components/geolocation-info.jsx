@@ -2,7 +2,7 @@ export default function geolocation({ city, countryCode, countryName, latitude, 
     return (
       <ul class="geolocation">
         <li class="geolocation__item">
-          <img src="https://flagcdn.com/96x72/${countryCode?.toLowerCase()}.png" class="geolocation__flag" alt="${countryName}" />
+          <img src="https://flagcdn.com/96x72/${countryCode?.toLowerCase()}.png" className="geolocation__flag" alt="${countryName}" />
         </li>
         <li class="geolocation__item">
           <span>Your country name</span>

@@ -1,8 +1,6 @@
-import geolocation from '../../../netlify/edge-functions/geolocation';
 import Container from '../Container';
 import styles from './style.module.css';
 import Page from '../geo'
-
 
 
 const HeroBanner = (props) => {

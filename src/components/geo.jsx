@@ -11,7 +11,7 @@ export default function Page ({ geo }) {
         <h1>Geolocation</h1>
         <p>You can use Edge Functions to get information about a user's location to serve location-specific content and personalize their experience.</p>
         
-        ${geolocationInfo({
+        {geolocationInfo({
           city: geo?.city,
           countryCode: geo?.country?.code,
           countryName: geo?.country?.name,
