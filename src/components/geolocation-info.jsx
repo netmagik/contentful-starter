@@ -1,5 +1,5 @@
 export default function geolocation({ city, countryCode, countryName, latitude, longitude, timezone }) {
-    return `
+    return (
       <ul class="geolocation">
         <li class="geolocation__item">
           <img src="https://flagcdn.com/96x72/${countryCode?.toLowerCase()}.png" class="geolocation__flag" alt="${countryName}" />
@@ -25,5 +25,5 @@ export default function geolocation({ city, countryCode, countryName, latitude, 
           <span>${timezone}</span>
         </li>
       </ul>
-    `;
+    );
   }
