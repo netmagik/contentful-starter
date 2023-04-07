@@ -4,7 +4,7 @@
     background-size: cover;
     background-position: bottom center;
     display: flex;
-    height: 40vh;
+    /* height: 65vh; */
     min-height: 300px;
     width: 100%;
 }
@@ -12,6 +12,8 @@
 .hero__title {
     font-size: 4rem;
     line-height: 1;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .hero__subtitle {
@@ -29,8 +31,10 @@
 
 @media (max-width: 768px) {
     .hero {
-        height: 30vh;
         min-height: 200px;
+    }
+    .details {
+        font-size: 0.8rem;
     }
 
     .hero__title {
@@ -40,4 +44,25 @@
     .hero__subtitle {
         font-size: 1.25rem;
     }
+}
+.geo {
+    display: grid;
+    list-style: none;
+    background-color: rgba(255, 255, 255, 0.773);
+    color: black;
+    border-radius: 5px;
+    font-size: 1rem;
+    max-width: 500px;
+    margin: 2rem auto;
+    border: 1px solid rgba(0, 0, 0, 0.691);
+    padding: 20px;
+    box-shadow: 2px 2px 15px 0 #666;
+}
+.details {
+    font-size: 1.1rem;
+    padding-left: 10px;
+    font-weight: 500;
+}
+.geolocation__flag {
+    margin: 20px auto;
 }

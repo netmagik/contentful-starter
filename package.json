@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "netlify dev",
-    "build": "npm run build",
+    "build": "next build",
     "start": "netlify dev",
     "lint": "next lint"
   },
