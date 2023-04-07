@@ -38,13 +38,12 @@ const HeroBanner = (props) => {
                 {/* {fields.subtitle && <p data-sb-field-path=".subtitle" className={styles.hero__subtitle}>{fields.subtitle}</p>} */}
 
                 {/* <img src="https://flagcdn.com/96x72/${countryCode?.toLowerCase()}.png" className="geolocation__flag" alt="${countryName}" /> */}
-                <ul>
-                    <li>You are located in: {JSON.stringify(geo?.geo.city)}</li>
-                    <li>Your country code: {JSON.stringify(geo?.geo.country.code)}</li>
-                    <li>Your country name: {JSON.stringify(geo?.geo.country.name)}</li>
-                    <li>Your country timezone: {JSON.stringify(geo?.geo.timezone)}</li>
-                    <li>Your latitude: {JSON.stringify(geo?.geo.latitude)}</li>
-                    <li>Your longitude: {JSON.stringify(geo?.geo.longitude)}</li>
+                <ul className={styles.geo}>
+                    <li>Your city is: <span className={styles.details}>{geo?.geo.city}</span></li>
+                    <li>Your country code: <span className={styles.details}>{geo?.geo.country.code}</span></li>
+                    <li>Your country name: <span className={styles.details}>{geo?.geo.country.name}</span></li>
+                    <li>Your country timezone: <span className={styles.details}>{geo?.geo.timezone}</span></li>
+                    <li>Your coordinates: <span className={styles.details}>{geo?.geo.latitude}, {geo?.geo.longitude}</span></li>
                 </ul>
                 {/* {JSON.stringify(geo)} */}
             
