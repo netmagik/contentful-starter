@@ -4,9 +4,9 @@
     background-size: cover;
     background-position: bottom center;
     display: flex;
-    /* height: 65vh; */
     min-height: 300px;
     width: 100%;
+    padding: 1rem;
 }
 
 .hero__title {
@@ -14,6 +14,7 @@
     line-height: 1;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    text-align: center;
 }
 
 .hero__subtitle {
