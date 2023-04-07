@@ -4,7 +4,7 @@
     background-size: cover;
     background-position: bottom center;
     display: flex;
-    height: 50vh;
+    height: 65vh;
     min-height: 300px;
     width: 100%;
 }
@@ -31,7 +31,7 @@
 
 @media (max-width: 768px) {
     .hero {
-        min-height: 200px;
+        min-height: 300px;
     }
 
     .hero__title {
@@ -57,4 +57,7 @@
 .details {
     font-size: 1.5rem;
     padding-left: 10px;
+}
+.geolocation__flag {
+    margin: 20px auto;
 }
